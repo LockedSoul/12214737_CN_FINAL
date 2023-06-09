@@ -87,3 +87,16 @@ Note: Ensure that the server is running before running the client. Modify the `s
 
 Feel free to customize and extend the code to meet your requirements.
 
+## Sisco Packet Tracer Proposed Examples
+
+![Screenshot 2023-06-09 235445](https://github.com/LockedSoul/12214737_CN_FINAL/assets/75694554/e1f26476-0653-4f47-9ca9-b1a8efe5e1f0)
+
+Here we have 3 user connected to the cloud running on the server using cable modems. Our client programm could be running on clients and server programm on cloud.
+
+
+
+
+![Screenshot 2023-06-09 235628](https://github.com/LockedSoul/12214737_CN_FINAL/assets/75694554/29f8101d-003a-46ed-9097-809e23ab9988)
+
+In this case we 3 users are connected just via home router device and each user has client and server intances running inside.
+
