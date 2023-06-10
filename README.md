@@ -1,4 +1,4 @@
-## P2P File Transfer Suing TCP Protocol
+## Python Based TCP Socket Programming for P2P File Sharing
 
 
 This code provides a file transfer system with a server and client component. The server listens for incoming connections and handles client requests to receive files, while the client allows users to send files (image, CSV, JSON) to the server. The server and client communicate using sockets.
