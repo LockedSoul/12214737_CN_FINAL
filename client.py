@@ -40,30 +40,23 @@ def sendFnc(ext, fileName, fileSize, fileData):
     try:
 
         # Send file ext info
-        print(ext)
         extStr = str(ext).encode()
         sock.send(extStr)
         if not serverStat(sock):
             raise Exception("Server Stoped Responding")
-        
-        print('name')
 
         # Send file name
         sock.sendall(fileName.encode())
         if not serverStat(sock):
             raise Exception("Server Stoped Responding")
         
-        print('size')
-        
-        # Send image size to server
+       # Send image size to server
         sock.sendall(fileSizeStr)
         if not serverStat(sock):
             raise Exception("Server Stoped Responding")
         
         # Send image data to the server
-        print('data')
-        
-        sock.sendall(fileData)
+       sock.sendall(fileData)
         if not serverStat(sock):
             raise Exception("Server Stoped Responding")
     # Display error message if Exception is raised
